@@ -1,10 +1,14 @@
 package com.b510.hongten.xdocreport.entity;
 
+import java.io.Serializable;
+
 /**
  * @author hongten
  * @created Mar 4, 2017
  */
-public class Student {
+public class Student implements Serializable {
+
+	private static final long serialVersionUID = 403095345634683339L;
 
 	private Long id;
 	private String no;

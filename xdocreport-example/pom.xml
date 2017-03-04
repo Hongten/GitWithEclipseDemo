@@ -1,19 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
 	<groupId>com.b510.hongten.xdocreport</groupId>
 	<artifactId>xdocreport-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	
 	<name>xdocreport-example</name>
 	<url>http://maven.apache.org</url>
-	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
-	
 	<dependencies>
 
 		<!-- ====== Begin Document Dependency ====== -->
@@ -21,22 +16,22 @@
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.4</version>
 		</dependency>
 
 		<!-- If you wish use MS PowerPoint pptx : -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.pptx</artifactId>
-			<version>1.0.5</version>
-		</dependency> -->
+			<version>1.0.4</version>
+		</dependency>
 
 		<!-- If you wish use OpenOffice odt : -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.odt</artifactId>
-			<version>1.0.5</version>
-		</dependency> -->
+			<version>1.0.4</version>
+		</dependency>
 		<!-- ====== End Document Dependency ====== -->
 
 		<!-- ====== Begin Template Dependency ====== -->
@@ -44,40 +39,37 @@
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.template.freemarker</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.4</version>
 		</dependency>
 
 		<!-- If you wish use Velocity : -->
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.template.velocity</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.4</version>
 		</dependency>
 		<!-- ====== Begin Template Dependency ====== -->
 		
 		
 		<!-- ====== Begin Converter Dependency ====== -->
 		<!-- If you wish convert docx 2 PDF/XHTML : -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
-			<version>1.0.5</version>
-		</dependency> -->
+			<version>1.0.4</version>
+		</dependency>
 		
 		<!-- If you wish convert odt 2 PDF/XHTML : -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.odt.odfdom</artifactId>
-			<version>1.0.5</version>
-		</dependency> -->
+			<version>1.0.4</version>
+		</dependency>
 		<!-- ====== Begin Converter Dependency ====== -->
-		
-		
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.10</version>
-			<scope>test</scope>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 		</dependency>
 	</dependencies>
 </project>
