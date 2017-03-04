@@ -10,6 +10,7 @@ public class Student {
 	private String no;
 	private String name;
 	private String email;
+	private String address;
 
 	public Long getId() {
 		return id;
@@ -41,6 +42,14 @@ public class Student {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 }
